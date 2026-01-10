@@ -48,13 +48,13 @@
   box-shadow: 0 0 4px 2px var(--accent-color);
 }
 
-.header__theme-menu {
+.header_theme-menu {
   justify-self: end;
   align-self: center;
   color: var(--header-theme-menu-color);
 }
 
-.header__theme-menu-list {
+.header_theme-menu-list {
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -62,7 +62,7 @@
   font-size: 18px;
 }
 
-.header__theme-menu-button {
+.header_theme-menu-button {
   cursor: pointer;
   background: transparent;
   border: 1px solid transparent;
@@ -72,19 +72,19 @@
   font-size: 18px;
 }
 
-.header__theme-menu-button:hover {
+.header_theme-menu-button:hover {
   outline: 1px solid var(--menu-hover-color);
 }
 
-.header__theme-menu-button:focus {
+.header_theme-menu-button:focus {
   outline: none;
 }
 
-.header__theme-menu-button:focus-visible {
+.header_theme-menu-button:focus-visible {
   border-block-end: 1px solid var(--header-theme-menu-color);
 }
 
-.header__theme-menu-button_active {
+.header_theme-menu-button_active {
   pointer-events: none;
   outline: 1px solid var(--header-theme-menu-color);
 }
@@ -244,7 +244,7 @@
     margin-block-start: 20px;
   }
 
-  .header__theme-menu {
+  .header_theme-menu {
     grid-column: span 2;
   }
 
@@ -353,13 +353,13 @@
     min-block-size: 768px;
   }
 
-  .header__theme-menu {
+  .header_theme-menu {
     grid-column: span 2;
     justify-self: center;
     align-self: start;
   }
 
-  .header__theme-menu-list {
+  .header_theme-menu-list {
     flex-direction: row;
   }
 
